@@ -1,0 +1,6 @@
+version: 1.00
+enviroment:
+  image: node:16.3.0-alpine
+  variables:
+workflow:
+  - build

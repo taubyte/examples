@@ -1,0 +1,12 @@
+id: QmSwQn9EqEagC46yDBFxAxZN9oTi8dabaAhhKeLmTvTiU9
+description: ""
+tags: []
+local: false
+channel:
+    regex: false
+    match: nftMinted
+bridges:
+    mqtt:
+        enable: false
+    websocket:
+        enable: false

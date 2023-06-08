@@ -1,0 +1,15 @@
+id: QmV6fkUXQX4mFG3FUBCfvuHMf9cf32DeFKHsjuAG8eGHEP
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /socket/get
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 20s
+    memory: 128MB
+    call: getSocket

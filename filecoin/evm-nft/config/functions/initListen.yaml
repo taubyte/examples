@@ -1,0 +1,15 @@
+id: QmZpRmKTf1npD6gSFs1cJrS3etmX2p6iWW95aBfT73eFFg
+description: ""
+tags: []
+source: .
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /listen/init
+domains:
+    - GeneratedDomain
+execution:
+    timeout: 25s
+    memory: 128MB
+    call: initListen

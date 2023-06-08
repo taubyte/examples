@@ -1,0 +1,12 @@
+id: QmYnEW85Bvn4GmVeB2c7QnWjqAYFdCsbnojKBX4bKuJNdv
+description: ""
+tags: []
+match: cidStore
+useRegex: false
+access:
+    network: all
+replicas:
+    min: 1
+    max: 10000
+storage:
+    size: 100MB

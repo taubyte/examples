@@ -1,0 +1,12 @@
+id: QmWmUkqBRgybTK8FQRCwZYg28hziA2oQMGTGWUKUdKDQYq
+description: ""
+tags: []
+local: false
+channel:
+    regex: false
+    match: currencyTransfer
+bridges:
+    mqtt:
+        enable: false
+    websocket:
+        enable: false

@@ -1,0 +1,12 @@
+id: QmeKFrbbE9TADHNg2K9APWJGdL6bCUhbW6K44rzb2nkTbD
+description: ""
+tags: []
+local: false
+channel:
+    regex: true
+    match: notifications/.*
+bridges:
+    mqtt:
+        enable: false
+    websocket:
+        enable: true
