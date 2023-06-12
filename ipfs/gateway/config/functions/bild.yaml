@@ -1,0 +1,15 @@
+id: QmSFeyV4g5GH9918RF4GqAxnLdQ52wto2b75SnActQCc1B
+description: bild
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /bild
+domains:
+    - taulink
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: bild

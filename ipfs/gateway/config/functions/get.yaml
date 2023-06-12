@@ -1,0 +1,15 @@
+id: QmdwAdQ9epgFRqqb9F7nFME5y8shBGzzvUE6pfFcgjCwwo
+description: "get "
+tags: []
+source: .
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /get
+domains:
+    - taulink
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: get
